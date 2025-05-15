@@ -24,7 +24,7 @@
                         #binding-cells = <0>;
                         bindings
                                 = <&macro_press &kp LSHFT>
-                                , <&macro_tap &kp F11>
+                                , <&macro_tap &kp F12>
                                 , <&macro_release &kp LSHFT>
                                 ;
                 };
