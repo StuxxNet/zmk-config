@@ -12,6 +12,7 @@
         macros {
                 navigate_left: navigate_left {
                         compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
                         bindings
                                 = <&macro_press &kp LSHFT>
                                 , <&macro_tap &kp F11>
@@ -20,6 +21,7 @@
                 };
                 navigate_right: navigate_right {
                         compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
                         bindings
                                 = <&macro_press &kp LSHFT>
                                 , <&macro_tap &kp F11>
